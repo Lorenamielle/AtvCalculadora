@@ -1,0 +1,131 @@
+/* Definindo o estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte usada no texto */
+    display: flex; /* Usando Flexbox para centralizar a calculadora */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    background-color: #f4f4f4; /* Cor de fundo */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo para o contêiner da calculadora */
+.calculadora {
+    background-color: #1db954; /* Cor de fundo da calculadora */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor da calculadora */
+    display: grid; /* Utilizando grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Define 4 colunas iguais */
+    grid-gap: 10px; /* Espaço entre as células da grid */
+    width: 300px; /* Largura da calculadora */
+}
+
+/* Estilo do campo de entrada (visor) */
+input {
+    grid-column: span 4; /* O visor ocupa todas as 4 colunas */
+    height: 40px; /* Altura do visor */
+    font-size: 24px; /* Tamanho da fonte */
+    text-align: right; /* Alinha o texto à direita */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #ddd; /* Borda ao redor do visor */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilo para os botões */
+button {
+    width: 100%; /* O botão ocupa 100% da largura da célula da grid */
+    height: 50px; /* Altura dos botões */
+    font-size: 20px; /* Tamanho da fonte nos botões */
+    background-color: #eee; /* Cor de fundo dos botões */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Cantos arredondados nos botões */
+    cursor: pointer; /* Muda o cursor ao passar sobre os botões */
+    transition: background-color 0.3s; /* Transição suave ao mudar a cor de fundo */
+}
+
+/* Cor de fundo ao passar o mouse sobre os botões */
+#btn1:hover {
+    background-image: url(img/MEME-204.jpg);
+    background-size: cover;
+}
+
+#btn2:hover {
+    background-image: url(img/09f8e9210b3bb36c8c5f756b5f8aabe3.jpg);
+    background-size: cover;
+}
+
+#btn3:hover {
+    background-image: url(img/4243420_a128891a983d5d1.jpg);
+    background-size: cover;
+}
+
+#btn4:hover {
+    background-image: url(img/5p0hb5j85x-1xrcnoo8v-file.jpeg);
+    background-size: cover;
+}
+
+#btn5:hover {
+    background-image: url(img/9e9prChC_400x400.jpg);
+    background-size: cover;
+}
+
+#btn6:hover {
+    background-image: url(img/a076bfefa1f012ca05beef524f85a03f.jpg);
+    background-size: cover;
+}
+
+#btn7:hover {
+    background-image: url(img/channels4_profile.jpg);
+    background-size: cover;
+}
+
+#btn8:hover {
+    background-image: url(img/images.jpg);
+    background-size: cover;
+}
+
+#btn9:hover {
+    background-image: url(img/images\ \(1\).jpg);
+    background-size: cover;
+}
+
+#btn10:hover {
+    background-image: url(img/images\ \(2\).jpg);
+    background-size: cover;
+}
+
+#btn11:hover {
+    background-image: url(img/Madonna-Like-a-Prayer-meme-10.jpg);
+    background-size: cover;
+}
+
+#btn12:hover {
+    background-image: url(img/miley-cyrus-b166db92315469874fbdc96bb9c27fb1-meme.jpeg);
+    background-size: cover;
+}
+
+#btn13:hover {
+    background-image: url(img/images\ \(4\).jpg);
+    background-size: cover;
+}
+
+#btn14:hover {
+    background-image: url(img/images\ \(3\).jpg);
+    background-size: cover;
+}
+
+#btn15:hover {
+    background-image: url(img/DntOE9OX0AEogzi.jpg);
+    background-size: cover;
+}
+
+#btn16:hover {
+    background-image: url(img/fe81c12a66b8eb3b82d8f28ed5d4d4c0.jpg);
+    background-size: cover;
+}
+
+/* Cor de fundo ao clicar nos botões */
+button:active {
+    background-color: #ccc;
+}
